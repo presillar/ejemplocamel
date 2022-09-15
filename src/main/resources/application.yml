@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: prod
+
+---
+spring:
+  profiles: dev
+
+message: Hola desde el ambiente de desarrollo y la hora actual es
+
+---
+spring:
+  profiles: stage
+
+message: Hola desde el ambiente de Stage y la hora actual es
+
+---
+spring:
+  profiles: prod
+
+message: Hola desde el ambiente de producción y la hora actual es
+
+---
