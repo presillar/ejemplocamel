@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>EjemploCamel</artifactId>
+    <artifactId>ejemplo-camel</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>EjemploCamel</name>
+    <name>ejemplo-camel</name>
     <description>Proyecto de ejemplo del uso de Camel con Spring Boot</description>
 
     <parent>
