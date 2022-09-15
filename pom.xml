@@ -7,6 +7,17 @@
     <groupId>org.example</groupId>
     <artifactId>EjemploCamel</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>EjemploCamel</name>
+    <description>Proyecto de ejemplo del uso de Camel con Spring Boot</description>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.3</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
@@ -14,4 +25,25 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
